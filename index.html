@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+
+    <!-- Font Awesome -->
+    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    
+    <title>Chatting App</title>
+
+    <script defer src="http://localhost:8000/socket.io/socket.io.js"></script>
+    <script defer src="js/client.js"></script>
+
+    <link rel="stylesheet" href="css/style.css" />
+
+  </head>
+  <body>
+
+    <div class="container border border-info rounded">
+    </div>
+
+    <div class="form-container">
+    <form class="form-inline fixed-bottom" action="#" id="send-container">
+        <input type="text" class="form-control" name="messageInp" id="messageInp" placeholder="Type....">
+        <button type="submit" class="btn btn-primary" onclick="check()"><i class="fa fa-paper-plane" aria-hidden="true"></i></button>
+    </form>
+    </div>
+
+    <script>
+    function check()
+    {
+      
+    }
+    </script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  </body>
+</html>
